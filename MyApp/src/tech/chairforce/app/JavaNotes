@@ -1,13 +1,31 @@
-data type			Size				Primitive/Reference			value
+----- Data Types -----
 
-boolean				1 bit				primitive					True or False (1 or 0)
+[data type]			[Size/Memory]			[Primitive/Reference]			[value]
 
-byte				1 byte(8 bits)		primitive					-128 to 127
-short				2 bytes				primitive					-32,768 to 32,767
-int					4 bytes				primitive					-2 Billion to 2 Billion
-long				8 bytes				primitive					-9 quintillion to 9 quintillion
-float				4 bytes				primitive					Fractional numbers up to 6 digits (3.141592f)
-double				8 bytes				primitive					Fractional numbers up to 15 digits (3.141592653589793)
+boolean				1 bit					primitive						True or False (1 or 0)
 
-char				2 bytes				primitive					Single character/letter/ASCII value ('r')
-String				varies				reference					A sequence of characters ("Hello World!"
+byte				1 byte(8 bits)			primitive						-128 to 127
+short				2 bytes					primitive						-32,768 to 32,767
+int					4 bytes					primitive						-2 Billion to 2 Billion
+long				8 bytes					primitive						-9 quintillion to 9 quintillion
+float				4 bytes					primitive						Fractional numbers up to 6 digits (3.141592f)
+double				8 bytes					primitive						Fractional numbers up to 15 digits (3.141592653589793)
+
+char				2 bytes					primitive						Single character/letter/ASCII value ('r')
+String				varies					reference						A sequence of characters ("Hello World!")
+
+----- Types -----
+
+[primitive]								[reference]
+
+8 types (boolean, byte, etc.)			Unlimited (user defined)
+Stores data								Store an address
+Can only hold 1 value					Can hold more than one value
+Less memory								More memory
+Fast									Slower
+
+-----------
+
+int x;				Declaration (Step one)
+x = 123;			Assignment	(Step two)
+int x = 123;		Initialization (Both Step one and two together)
