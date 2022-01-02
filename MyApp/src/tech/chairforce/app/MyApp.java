@@ -21,6 +21,7 @@ public class MyApp {
 		return gitty;
 	}
 	
+	// Testing github user instead of local desktop user for commits!
 	
 	
 }
