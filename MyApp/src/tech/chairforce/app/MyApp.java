@@ -5,7 +5,8 @@ public class MyApp {
 	public static void main(String[] args) {
 		sayGreeting(myName("Ryan"));
 		System.out.println(0);
-		testGit("testing");
+		System.out.println("Hello World!");
+		
 
 	}
 
@@ -17,11 +18,9 @@ public class MyApp {
 		return name;
 	}
 
-	private static String testGit(String gitty) {
-		return gitty;
-	}
 	
-	// Testing github user instead of local desktop user for commits!
+	
+	
 	
 	
 }
