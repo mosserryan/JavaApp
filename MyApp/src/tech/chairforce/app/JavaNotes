@@ -24,8 +24,30 @@ Can only hold 1 value					Can hold more than one value
 Less memory								More memory
 Fast									Slower
 
------------
+----- Variable Definitions -----
+
+[Example]				[Definition]
 
 int x;				Declaration (Step one)
 x = 123;			Assignment	(Step two)
 int x = 123;		Initialization (Both Step one and two together)
+
+----- Commenting code -----
+
+*** To comment one line ***
+
+1. Place the cursor anywhere on the required line of code.
+
+2. Press Ctrl + / (Two slashes "//" will be added to the front of the line, causing it to be recognized as a comment.)
+
+*** To comment more than one line ***
+
+1. Select all the lines that you would like to be commented.
+
+2. Press Ctrl + / (Two slashes "//" will be added to the front of each line, causing them to be recognized as a comment.)
+
+*** To comment a block of code ***
+
+1. Select the required block of code.
+
+2. Press Ctrl + Shift + / (The beginning (/*) and ending (*/) characters will be added in the appropriate places in order to mark the selected block as a comment.)
