@@ -5,6 +5,7 @@ public class MyApp {
 	public static void main(String[] args) {
 		sayGreeting(myName("Ryan"));
 		System.out.println(0);
+		testGit("testing");
 
 	}
 
@@ -16,4 +17,10 @@ public class MyApp {
 		return name;
 	}
 
+	private static String testGit(String gitty) {
+		return gitty;
+	}
+	
+	
+	
 }
