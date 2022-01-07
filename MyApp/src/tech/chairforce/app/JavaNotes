@@ -51,3 +51,5 @@ int x = 123;		Initialization (Both Step one and two together)
 1. Select the required block of code.
 
 2. Press Ctrl + Shift + / (The beginning (/*) and ending (*/) characters will be added in the appropriate places in order to mark the selected block as a comment.)
+
+
