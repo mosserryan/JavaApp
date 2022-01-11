@@ -20,4 +20,28 @@ public class Arrays {
 		
 	}
 	
+	public static void twoDArray() {
+		
+		String[][] animals = new String[3][3];
+		
+		animals[0][0] = "Cat";
+		animals[0][1] = "Dog";
+		animals[0][2] = "Bird";
+		animals[1][0] = "Fish";
+		animals[1][1] = "Hog";
+		animals[1][2] = "Bat";
+		animals[2][0] = "Monkey";
+		animals[2][1] = "Bear";
+		animals[2][2] = "Zebra";
+		
+		for(int i = 0; i < animals.length; i++) {
+			System.out.println();
+			for(int j = 0; j < animals.length; j++) {
+				System.out.print(animals[i][j] + " ");
+			}
+
+		}
+		
+	}
+	
 }
