@@ -12,4 +12,8 @@ public class LinkedInPost {
 		System.out.println("Generic line");
 	}
 	
+	public static void randomNumberGenerator() {
+		
+	}
+	
 }
