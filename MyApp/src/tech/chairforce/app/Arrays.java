@@ -22,6 +22,15 @@ public class Arrays {
 	
 	public static void twoDArray() {
 		
+		// Other way to write arrays
+		String[][] animalsV2 = {
+									{ "Cat", "Dog", "Bird"},
+									{ "Fish", "Hog", "Bat"},
+									{ "Monkey", "Bear", "Zebra"}
+								};
+		
+		System.out.println(animalsV2);
+		
 		String[][] animals = new String[3][3];
 		
 		animals[0][0] = "Cat";
