@@ -10,14 +10,52 @@ public class ListArray {
 		
 		ArrayList<String> food = new ArrayList<String>();
 		
-		food.add("Pizza");
-		food.add("Hotdog");
-		food.add("Hamburger");
+//		food.add("Pizza");
+//		food.add("Hotdog");
+//		food.add("Hamburger");
 		
-		for(int i = 0; i < food.size(); i++) {
-			System.out.println(food.get(i));
+		// food.set(0, "Salad");
+		
+		String[] array = {"Pizza", "Hotdog", "Hamburger"};
+		
+		addFood(array, food);
+		getFood(food);
+		System.out.println("Now we set and remove.");
+		setFood(food);
+		removeFood(food);
+		getFood(food);
+		food.clear();
+		System.out.println(food);
+		
+	}
+	
+	public static void addFood(String[] array, ArrayList<String> food) {
+		
+		for(int i = 0; i < array.length; i++) {
+			food.add(array[i]);
 		}
 		
 	}
+	
+	public static void getFood(ArrayList<String> food) {
+		
+		for(int i = 0; i < food.size(); i++) {
+			System.out.println(i + " " + food.get(i));
+		}
+		
+	}
+	
+	public static void setFood(ArrayList<String> food) {
+		
+		food.set(0, "Salad");
+		
+	}
+	
+	public static void removeFood(ArrayList<String> food) {
+		
+		food.remove(2);
+		
+	}
+	
 
 }
