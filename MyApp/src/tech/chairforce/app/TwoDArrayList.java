@@ -73,11 +73,12 @@ public class TwoDArrayList {
 					
 					System.out.println(fullOrder.get(i).get(j));
 					
-					if(allItems != null && j != fullOrder.get(i).size() && i != fullOrder.size()) {
+					// Check for null, run until j equal the array's size. // Now we check if we're on the last array of the 2D arrays.
+					if(allItems != null && j < fullOrder.get(i).size() - 1 || allItems != null && i != fullOrder.size() - 1) {
 						
 						allItems = allItems + ", " + fullOrder.get(i).get(j);
 						
-					} else if (j == fullOrder.size()) {
+					} else if (j == fullOrder.get(i).size() - 1 && i == fullOrder.size() - 1) {
 						
 						allItems = allItems + ", and " + fullOrder.get(i).get(j) + ".";
 						
