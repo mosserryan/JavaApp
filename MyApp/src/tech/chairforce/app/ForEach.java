@@ -31,13 +31,10 @@ public class ForEach {
 		
 		String animalString = "";
 		
-		int counter = 0;
+		int counter = 1;
 		
 		for(String i : animalList) {
-			
-			counter++;
-			System.out.println(counter);
-			
+					
 			if(counter < animalList.size() && animalString != "") {
 				animalString = animalString + ", " + i;	
 			}
@@ -50,6 +47,7 @@ public class ForEach {
 				animalString = i;
 			}
 					
+			counter++;
 		}
 		
 		System.out.println(animalString + ".");
