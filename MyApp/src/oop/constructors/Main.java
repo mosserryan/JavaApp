@@ -4,11 +4,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Human human = new Human("Ryan", 28, 145.00);
+		Human humanOne = new Human("Ryan", 28, 145.00);
+		Human humanTwo = new Human("Alie", 29, 100.00);
 		
-		human.greeting();
+		humanTwo.greeting();
+		humanOne.greeting();
 		
-		System.out.println(human.name);
+		humanOne.eat();
+		humanOne.sleep();
+		
+		System.out.println(humanOne.name);
 		
 	}
 	
