@@ -46,7 +46,7 @@ public class Pizza {
 	
 	void cookPizza() {
 		if(this.cheese != null && this.toppings != null) {
-			System.out.println("Cooking up the " + this.cheese + " and " + this.toppings + " pizza with a " + this.sauce + " sauce and a " + this.crust + ".");
+			System.out.println("Cooking up the " + this.cheese + " and " + this.toppings + " pizza with " + this.sauce + " sauce and a " + this.crust + ".");
 		} else if (this.cheese != null && this.toppings == null) {
 			System.out.println("Cooking up the " + this.cheese + " pizza with " + this.sauce + " sauce and a " + this.crust + ".");
 		} else {
